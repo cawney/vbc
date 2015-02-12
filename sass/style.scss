@@ -29,7 +29,7 @@ Header
 header {
   .nav {
     padding-top: 20px;
-    background: #eee;
+    background: #efefef;
   }
 }
 
@@ -43,6 +43,7 @@ Footer
 
 footer {
   background: #ddd;
+  margin-top: 10px;
 }
 
 .footerContactList  {
@@ -78,14 +79,6 @@ Home Page
   
 }
 
-#wednesdayNight {
-  max-height: 180px;
-  max-width: 220px;
-  img {
-    border-radius: 15px; 
-  }
-}
-
 
 
 /******************************************************************************
@@ -109,4 +102,16 @@ Serve Page
     background: blue;
     height: 200px;
   }
+}
+
+
+
+/******************************************************************************
+Sermon Page
+******************************************************************************/
+
+
+
+.sermonPromo {
+  margin-bottom: 50px;
 }

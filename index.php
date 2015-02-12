@@ -14,13 +14,13 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="img/23blast.jpg" alt="23 Blast Picture">
+      <img src="img/23blast.jpg" alt="23 Blast Picture" class="img-responsive">
       <div class="carousel-caption">
         <h2>23 Blast</h2>
       </div>
     </div>
     <div class="item">
-      <img src="img/ourGod.png" alt="..." class="img-responsive">
+      <img src="img/ourGod.png" alt="Our God Sermon Series" class="img-responsive">
       <div class="carousel-caption">
         <h2><a href="#">Our God</a></h2>
       </div>
@@ -49,10 +49,10 @@
   
   <div class="featuredWidget">
     <div class="row">
-      <div class="col-md-3 featuredWidgetColumn text-center" id="wednesdayNight"><img src="img/bigBible.jpg" alt=""></div>
-      <div class="col-md-3 featuredWidgetColumn" id="missionPromo"><img src="img/missionBible.jpg" alt=""></div>
-      <div class="col-md-3 featuredWidgetColumn"><img src="img/countdown.png" alt=""></div>
-      <div class="col-md-3 featuredWidgetColumn"><h3>Give.</h3></div>
+      <div class="col-md-3 featuredWidgetColumn text-center" id="wednesdayNight"><a href="#"><img src="img/bigBible.jpg" alt=""></a></div>
+      <div class="col-md-3 featuredWidgetColumn" id="missionPromo"><a href="#"><img src="img/missionBible.jpg" alt=""></a></div>
+      <div class="col-md-3 featuredWidgetColumn"><a href="#"><img src="img/countdown.png" alt=""></a></div>
+      <div class="col-md-3 featuredWidgetColumn"><a href="#"><img src="img/creditcardStock.jpg" alt=""></a></div>
     </div>
   </div>
   

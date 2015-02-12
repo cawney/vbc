@@ -4,7 +4,13 @@
 <p class="lead">Thanks for checking out Versailles Baptist Church. We are so thankful you are considering stopping by!</p>
 
 <h4>What you Need to know:</h4>
-<p class="lead">What we Beleive:</p>
+<p class="lead">What we Believe:</p>
+<ul>
+  <li>Who is this God fellow?</li>
+  <li>Who is this Jesus fellow?</li>
+  <li>What do I need to do to meet Jesus some day?</li>
+  <li>Why should I help people?</li>
+</ul>
 <p class="lead">Mission Statement:</p>
 <p>Versailles Baptist is here to help people: Decide, Devote and Demonstrate their love for Jesus.</p>
 <ul>

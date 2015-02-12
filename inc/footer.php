@@ -12,7 +12,7 @@
           </ul>   
        </div>
        <div class="col-md-4">
-         <h4>Meet the Staff</h4>
+         <h4>Meet the Ministers:</h4>
          <ul>
            <li>Michael Cabell</li>
            <li>Johnathon Berry</li>

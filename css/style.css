@@ -15,13 +15,14 @@ Header
 ******************************************************************************/
 header .nav {
   padding-top: 20px;
-  background: #eee; }
+  background: #efefef; }
 
 /******************************************************************************
 Footer
 ******************************************************************************/
 footer {
-  background: #ddd; }
+  background: #ddd;
+  margin-top: 10px; }
 
 .footerContactList {
   list-style: none; }
@@ -42,12 +43,6 @@ Home Page
     border-radius: 15px;
     margin: 5px; }
 
-#wednesdayNight {
-  max-height: 180px;
-  max-width: 220px; }
-  #wednesdayNight img {
-    border-radius: 15px; }
-
 /******************************************************************************
 Guest Page 
 ******************************************************************************/
@@ -60,3 +55,9 @@ Serve Page
 .serveRow div {
   background: blue;
   height: 200px; }
+
+/******************************************************************************
+Sermon Page
+******************************************************************************/
+.sermonPromo {
+  margin-bottom: 50px; }

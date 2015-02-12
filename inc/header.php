@@ -25,9 +25,10 @@
    <div class="container">
    
     <ul class="nav nav-pills">
+     <li role="presentation"><a href="index.php"><img src="img/vbcSmallLogo.png" alt=""></a></li>
       <li role="presentation" class="active"><a href="index.php">Home</a></li>
       <li role="presentation"><a href="newhere.php">New Here?</a></li>
-      <li role="presentation"><a href="#">Sermons</a></li>
+      <li role="presentation"><a href="sermon.php">Sermons</a></li>
       
       <li role="presentation" class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">
