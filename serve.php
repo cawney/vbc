@@ -5,9 +5,9 @@
 
 <div class="container">
   <div class="row serveRow">
-    <div class="col-md-4"></div>
-    <div class="col-md-4"></div>
-    <div class="col-md-4"></div>
+    <div class="col-md-4">In the Chruch</div>
+    <div class="col-md-4">In the Community</div>
+    <div class="col-md-4">Around the World</div>
   </div>
 </div>
 
