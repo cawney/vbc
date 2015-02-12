@@ -8,6 +8,16 @@ body {
   background: #eee;
 }
 
+p {
+  font-size: 14px;
+}
+
+.wrap {
+  padding-top: 50px;
+}
+
+
+
 
 
 /******************************************************************************
@@ -18,7 +28,8 @@ Header
 
 header {
   .nav {
-    margin-top: 20px;
+    padding-top: 20px;
+    background: #eee;
   }
 }
 
@@ -51,14 +62,28 @@ Home Page
   .item {
     height: 300px;
     width: 100%;
+    margin: 0 auto;
   }
 }
 
 .featuredWidgetColumn {
-  height: 200px;
   
-  margin-top: 25px;
+  margin: 25px 0;
+  img {
+    width: 220px;
+    height: 180px;
+    border-radius: 15px;
+    margin: 5px;
+  }
   
+}
+
+#wednesdayNight {
+  max-height: 180px;
+  max-width: 220px;
+  img {
+    border-radius: 15px; 
+  }
 }
 
 
@@ -69,4 +94,19 @@ Guest Page
 
 .welcomeMap {
   margin: 20px;
+}
+
+
+
+/******************************************************************************
+Serve Page
+******************************************************************************/
+
+
+
+.serveRow {
+  div {
+    background: blue;
+    height: 200px;
+  }
 }

@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="item">
-      <img src="img/ourGod.png" alt="...">
+      <img src="img/ourGod.png" alt="..." class="img-responsive">
       <div class="carousel-caption">
         <h2><a href="#">Our God</a></h2>
       </div>
@@ -29,6 +29,7 @@
       <img src="..." alt="...">
       <div class="carousel-caption">
         <h2><a href="#">Wednesday Night</a></h2>
+        <img src="img/23blast.jpg" alt="Stuff" >
       </div>
     </div>
     
@@ -48,9 +49,9 @@
   
   <div class="featuredWidget">
     <div class="row">
-      <div class="col-md-3 featuredWidgetColumn"><h3>Wednesday Night.</h3></div>
-      <div class="col-md-3 featuredWidgetColumn"><h3>Missions.</h3></div>
-      <div class="col-md-3 featuredWidgetColumn"><h3>Watch online in...</h3></div>
+      <div class="col-md-3 featuredWidgetColumn text-center" id="wednesdayNight"><img src="img/bigBible.jpg" alt=""></div>
+      <div class="col-md-3 featuredWidgetColumn" id="missionPromo"><img src="img/missionBible.jpg" alt=""></div>
+      <div class="col-md-3 featuredWidgetColumn"><img src="img/countdown.png" alt=""></div>
       <div class="col-md-3 featuredWidgetColumn"><h3>Give.</h3></div>
     </div>
   </div>

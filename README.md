@@ -16,6 +16,8 @@ Have the nav bar have a drop down for the different age groups and then have a l
 Make the drop down list for the age have a landing page where each preacher will talk about how awesome that section is.
 Serving should have a spot for you to serve in the church, in the community and in the world (global missions). There should also be something saying that it doesn't matter what you choose because we all have special gifts
 
+Change the ontainer div so that if I wanted a div to take up the full page I could.
+
 
 
 My vision for the website:
