@@ -1,30 +1,31 @@
 <?php include('inc/header.php'); ?>
 
 <h1>Sermon Title</h1>
-<img src="http://placehold.it/960x300" alt="" class="img-responsive">
-<p class="lead">This is some filler text about what this series will be about, but more importantly... This should excite people to get them to want to read the sermon notes or watch the video or hug a stranger or do some CTA.</p>
-<hr>
-
 <div class="row">
   <div class="col-md-8">
     <h3>Video goes here.</h3>
     <div class="embed-responsive embed-responsive-16by9">
       <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/dQw4w9WgXcQ"></iframe>
-<!--      <iframe width="420" height="315" src="" frameborder="0" allowfullscreen></iframe>-->
     </div>
+    <p>Here is some text about what this sermon is about. This is specific for this video. For instance, the series is on God but this sermon is on God's love.</p>
   </div>
   <div class="col-md-4">
+   <h3>Other Sermons:</h3>
     <div class="list-group">
       <a href="#" class="list-group-item active">
-        Cras justo odio
+        God is HUGE
       </a>
-      <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
-      <a href="#" class="list-group-item">Morbi leo risus</a>
-      <a href="#" class="list-group-item">Porta ac consectetur ac</a>
-      <a href="#" class="list-group-item">Vestibulum at eros</a>
+      <a href="#" class="list-group-item">God is LOVE</a>
+      <a href="#" class="list-group-item">God is Awesome</a>
+      <a href="#" class="list-group-item">God is Vauge</a>
+      <a href="#" class="list-group-item">God is defender</a>
     </div>
   </div>
 </div>
+
+<h3>Want to watch the latest sermon?</h3>
+<p class="btn btn-warning">Click below for the latest sermon</p>
+<p class="btn btn-warning">Click here to watch sermons live!</p>
 
 
 <?php include('inc/footer.php'); ?>

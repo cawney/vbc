@@ -9,4 +9,11 @@ function initialize() {
       google.maps.event.addDomListener(window, 'load', initialize);
 
 
+/*
+Make the icons reveal text when hovered over.
+*/
+
+
+
+
 //-34.397, 150.644

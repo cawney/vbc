@@ -2,6 +2,10 @@
 General
 ******************************************************************************/
 
+/**************************************
+Colors
+**************************************/
+
 
 
 body {
@@ -16,6 +20,14 @@ p {
   padding-top: 50px;
 }
 
+ul {
+  list-style: none;
+}
+
+hr {
+  border: 1px solid #fff;
+}
+
 
 
 
@@ -26,11 +38,20 @@ Header
 
 
 
-header {
-  .nav {
-    padding-top: 20px;
-    background: #efefef;
+.banner {
+  background: #f6f6f6;
+//  border-bottom: 1px solid #e1e1e1;
+  padding-top: 10px;
+  box-shadow: 0 8px 6px -6px black;
+  z-index: 50;
+  ul {
+    padding-top: 35px;    
   }
+}
+
+.navbar, .navbar-default {
+  z-index: 1;
+  margin-top: 5px;
 }
 
 
@@ -42,13 +63,28 @@ Footer
 
 
 footer {
-  background: #ddd;
+  background: #e1e1e1;
   margin-top: 10px;
 }
 
 .footerContactList  {
   list-style: none;
 }
+
+#facebook {
+  display: none;
+}
+
+.quickLinkMenu {
+  a {
+    color: #444;
+    &:hover#facebook {
+      display: inline;
+    }
+  }
+}
+
+
 
 
 
@@ -61,9 +97,12 @@ Home Page
 
 .carousel-inner {
   .item {
-    height: 300px;
-    width: 100%;
-    margin: 0 auto;
+    background: lightgrey;
+    img {
+      margin: 0 auto;
+      
+      height: 100%;
+    }
   }
 }
 
@@ -78,6 +117,20 @@ Home Page
   }
   
 }
+
+html,body {
+  height:100%;
+}
+
+.carousel,.item,.active {
+  height:100%;
+  max-height: 422px;
+}
+
+.carousel-inner {
+  height:100%;
+}
+
 
 
 
@@ -99,9 +152,13 @@ Serve Page
 
 .serveRow {
   div {
-    background: blue;
+    
     height: 200px;
   }
+}
+
+.serveHeader {
+  background: url('http://placehold.it/200x100') no-repeat center center;
 }
 
 
@@ -113,5 +170,5 @@ Sermon Page
 
 
 .sermonPromo {
-  margin-bottom: 50px;
+  margin-top: 50px;
 }

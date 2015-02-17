@@ -1,6 +1,9 @@
 /******************************************************************************
 General
 ******************************************************************************/
+/**************************************
+Colors
+**************************************/
 body {
   background: #eee; }
 
@@ -10,30 +13,53 @@ p {
 .wrap {
   padding-top: 50px; }
 
+ul {
+  list-style: none; }
+
+hr {
+  border: 1px solid #fff; }
+
 /******************************************************************************
 Header
 ******************************************************************************/
-header .nav {
-  padding-top: 20px;
-  background: #efefef; }
+.banner {
+  background: #f6f6f6;
+  padding-top: 10px;
+  box-shadow: 0 8px 6px -6px black;
+  z-index: 50; }
+  .banner ul {
+    padding-top: 35px; }
+
+.navbar, .navbar-default {
+  z-index: 1;
+  margin-top: 5px; }
 
 /******************************************************************************
 Footer
 ******************************************************************************/
 footer {
-  background: #ddd;
+  background: #e1e1e1;
   margin-top: 10px; }
 
 .footerContactList {
   list-style: none; }
 
+#facebook {
+  display: none; }
+
+.quickLinkMenu a {
+  color: #444; }
+  .quickLinkMenu a:hover#facebook {
+    display: inline; }
+
 /******************************************************************************
 Home Page
 ******************************************************************************/
 .carousel-inner .item {
-  height: 300px;
-  width: 100%;
-  margin: 0 auto; }
+  background: lightgrey; }
+  .carousel-inner .item img {
+    margin: 0 auto;
+    height: 100%; }
 
 .featuredWidgetColumn {
   margin: 25px 0; }
@@ -42,6 +68,16 @@ Home Page
     height: 180px;
     border-radius: 15px;
     margin: 5px; }
+
+html, body {
+  height: 100%; }
+
+.carousel, .item, .active {
+  height: 100%;
+  max-height: 422px; }
+
+.carousel-inner {
+  height: 100%; }
 
 /******************************************************************************
 Guest Page 
@@ -53,11 +89,13 @@ Guest Page
 Serve Page
 ******************************************************************************/
 .serveRow div {
-  background: blue;
   height: 200px; }
+
+.serveHeader {
+  background: url("http://placehold.it/200x100") no-repeat center center; }
 
 /******************************************************************************
 Sermon Page
 ******************************************************************************/
 .sermonPromo {
-  margin-bottom: 50px; }
+  margin-top: 50px; }

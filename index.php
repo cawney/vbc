@@ -1,7 +1,4 @@
 <?php include('inc/header.php'); ?>
-
-  <h1>Versailles Baptist Church</h1>
-  
   
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -26,10 +23,10 @@
       </div>
     </div>
     <div class="item">
-      <img src="..." alt="...">
+      <img src="http://placehold.it/1140x422" alt="...">
       <div class="carousel-caption">
         <h2><a href="#">Wednesday Night</a></h2>
-        <img src="img/23blast.jpg" alt="Stuff" >
+
       </div>
     </div>
     
@@ -49,10 +46,10 @@
   
   <div class="featuredWidget">
     <div class="row">
-      <div class="col-md-3 featuredWidgetColumn text-center" id="wednesdayNight"><a href="#"><img src="img/bigBible.jpg" alt=""></a></div>
-      <div class="col-md-3 featuredWidgetColumn" id="missionPromo"><a href="#"><img src="img/missionBible.jpg" alt=""></a></div>
-      <div class="col-md-3 featuredWidgetColumn"><a href="#"><img src="img/countdown.png" alt=""></a></div>
-      <div class="col-md-3 featuredWidgetColumn"><a href="#"><img src="img/creditcardStock.jpg" alt=""></a></div>
+      <div class="col-md-3 col-sm-6 featuredWidgetColumn text-center" id="wednesdayNight"><a href="#" class="featuredImage"><img src="img/bigBible.jpg" alt=""></a></div>
+      <div class="col-md-3 col-sm-6 featuredWidgetColumn text-center" id="missionPromo"><a href="#" class="featuredImage"><img src="img/missionBible.jpg" alt=""></a></div>
+      <div class="col-md-3 col-sm-6 featuredWidgetColumn text-center"><a href="#" class="featuredImage"><img src="img/countdown.png" alt=""></a></div>
+      <div class="col-md-3 col-sm-6 featuredWidgetColumn text-center"><a href="#" class="featuredImage"><img src="img/creditcardStock.jpg" alt=""></a></div>
     </div>
   </div>
   

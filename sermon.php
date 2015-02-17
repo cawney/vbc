@@ -12,12 +12,14 @@
         <div class="col-md-8">
           <h2>Sermon Title</h2>
           <p class="lead">Here is some filler text to give people an idea of what this sermon is about to see if they want to read on with it.</p> 
-          <a href="#" class="btn btn-success">Read On...</a>
+          <a href="sermonSeries.php" class="btn btn-success">Read On...</a>
         </div>
-        <hr>
+
       </div> 
       <!-- /sermonPromo -->    
+      
       <div class="sermonPromo">
+      <hr>
        <div class="col-md-4">
          <a href="sermonSeries.php"><img src="http://placehold.it/200x200" alt="" class="img-rounded"></a>
        </div>
@@ -26,11 +28,22 @@
           <p class="lead">Here is some filler text to give people an idea of what this sermon is about to see if they want to read on with it.</p> 
           <a href="sermonSeries.php" class="btn btn-success">Read On...</a>
         </div>
-        <hr>
+        
       </div> 
       <!-- /sermonPromo -->    
     </div>
     <!-- /mainSection -->
+    <div class="col-lg-4 sideSection">
+      <div class="topicalIndex">
+        <h3>Find Sermon Series:</h3>
+        <div class="list-group">
+          <a href="#" class="list-group-item">God Rocks</a>
+          <a href="#" class="list-group-item">Prophets Rule</a>
+          <a href="#" class="list-group-item">We are pretty swell</a>
+          <a href="#" class="list-group-item">Jesus is THE MAN</a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 

@@ -1,13 +1,19 @@
 <?php include('inc/header.php'); ?>
 
 <h1>Serve With Us.</h1>
-<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ipsam nemo atque nesciunt voluptate facere, dolore voluptatibus impedit animi dolor omnis illo adipisci ipsa eos. Accusantium iste fuga, numquam dolores.</p>
+<p class="lead">So you want to be a Jesus Ambasidor? Came to the right spot. Now, remember... not everyone needs to travel to the ends of the earth.</p>
 
 <div class="container">
   <div class="row serveRow">
-    <div class="col-md-4">In the Chruch</div>
-    <div class="col-md-4">In the Community</div>
-    <div class="col-md-4">Around the World</div>
+    <div class="col-md-4 text-center serveHeader">
+      <h2>In the Church</h2>
+    </div>
+    <div class="col-md-4 text-center serveHeader">
+      <h2>In the Community</h2>
+    </div>
+    <div class="col-md-4 text-center serveHeader">
+      <h2>Around the World</h2>
+    </div>
   </div>
 </div>
 
