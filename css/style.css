@@ -4,31 +4,63 @@ General
 /**************************************
 Colors
 **************************************/
+/******************
+VBC Colors
+******************/
+/**************************************
+Design Preferences
+**************************************/
 body {
-  background: #eee; }
+  background: #fefefe;
+  position: relative; }
 
 p {
   font-size: 14px; }
-
-.wrap {
-  padding-top: 50px; }
 
 ul {
   list-style: none; }
 
 hr {
-  border: 1px solid #fff; }
+  border: 1px solid #999;
+  margin-top: 50px; }
+
+html, body {
+  height: 100%;
+  width: 100%; }
+
+.fixedTop {
+  position: fixed;
+  top: 0;
+  margin-bottom: 40px;
+  width: 90%;
+  background: white;
+  box-shadow: 3px 3px 6px #333; }
+
+.navbar-fixed-top {
+  box-shadow: 3px 3px 6px #333;
+  margin-bottom: 80px; }
 
 /******************************************************************************
 Header
 ******************************************************************************/
 .banner {
-  background: #f6f6f6;
-  padding-top: 10px;
+  background: url("../img/stardust_@2X.png") repeat-x;
   box-shadow: 0 8px 6px -6px black;
   z-index: 50; }
+  .banner h1, .banner h5 {
+    font-family: 'Shadows Into Light', cursive;
+    color: white; }
+    .banner h1 a, .banner h5 a {
+      color: white;
+      font-style: italic; }
+      .banner h1 a:hover, .banner h5 a:hover {
+        text-decoration: none; }
   .banner ul {
-    padding-top: 35px; }
+    padding-top: 15px; }
+    .banner ul li, .banner ul a {
+      color: #fefefe; }
+      .banner ul li:hover, .banner ul a:hover {
+        text-decoration: none; }
 
 .navbar, .navbar-default {
   z-index: 1;
@@ -40,6 +72,8 @@ Footer
 footer {
   background: #e1e1e1;
   margin-top: 10px; }
+  footer h4 {
+    border-bottom: 1px solid #555; }
 
 .footerContactList {
   list-style: none; }
@@ -55,12 +89,32 @@ footer {
 /******************************************************************************
 Home Page
 ******************************************************************************/
+/**************************************
+Carousel
+**************************************/
 .carousel-inner .item {
-  background: lightgrey; }
+  background: #aaa; }
   .carousel-inner .item img {
     margin: 0 auto;
     height: 100%; }
 
+.carousel-inner {
+  height: 100%; }
+
+.carousel, .item, .active {
+  height: 100%;
+  max-height: 422px; }
+
+.carousel {
+  margin: 0 auto;
+  padding-top: 0; }
+
+.shrinkFix {
+  height: 422px; }
+
+/**************************************
+Featured Widget
+**************************************/
 .featuredWidgetColumn {
   margin: 25px 0; }
   .featuredWidgetColumn img {
@@ -69,21 +123,61 @@ Home Page
     border-radius: 15px;
     margin: 5px; }
 
-html, body {
-  height: 100%; }
+.featuredWidgets {
+  background: blue; }
+  .featuredWidgets .col-md-4 {
+    background: red; }
 
-.carousel, .item, .active {
-  height: 100%;
-  max-height: 422px; }
+/**************************************
+ALTERNATE HOME PAGE
+**************************************/
+.infoSection {
+  background: #333;
+  color: #efefef;
+  box-shadow: 3px 3px 5px 3px #111;
+  padding: 10px;
+  margin: 20px auto; }
+  .infoSection a {
+    color: #efefef; }
+  .infoSection button {
+    background: #444;
+    border: 1px solid #efefef; }
+    .infoSection button:hover {
+      color: #000; }
 
-.carousel-inner {
-  height: 100%; }
+.mainHome {
+  margin: 20px auto; }
+
+.currentEvents {
+  margin: 10px auto; }
+
+.socialIcon:hover {
+  color: blue; }
 
 /******************************************************************************
 Guest Page 
 ******************************************************************************/
+.subnav {
+  z-index: 1000;
+  background: #fefefe; }
+
 .welcomeMap {
   margin: 20px; }
+
+.decide, .devote, .demonstrate {
+  padding: 10px; }
+
+.decide {
+  background: #87a3e0;
+  border-radius: 10px 10px 0 0; }
+
+.devote {
+  background: #b2d769;
+  margin: -10px auto; }
+
+.demonstrate {
+  background: #a580b5;
+  border-radius: 0 0 10px 10px; }
 
 /******************************************************************************
 Serve Page
@@ -98,4 +192,5 @@ Serve Page
 Sermon Page
 ******************************************************************************/
 .sermonPromo {
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 25px; }

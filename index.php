@@ -1,4 +1,12 @@
 <?php include('inc/header.php'); ?>
+ 
+ <div class="container">
+  <div class="alert alert-danger" role="alert">
+    
+      <h1>This is a warning! <small>Stuff is cancelled</small></h1>
+      <p><a href="alternate.php">Alternate Home Page</a></p>
+    </div>
+  </div> <!-- /warning widget -->
   
   <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
@@ -17,7 +25,7 @@
       </div>
     </div>
     <div class="item">
-      <img src="img/ourGod.png" alt="Our God Sermon Series" class="img-responsive">
+      <img src="img/ourGod.png" alt="Our God Sermon Series" class="img-responsive shrinkFix">
       <div class="carousel-caption">
         <h2><a href="#">Our God</a></h2>
       </div>
@@ -48,10 +56,46 @@
     <div class="row">
       <div class="col-md-3 col-sm-6 featuredWidgetColumn text-center" id="wednesdayNight"><a href="#" class="featuredImage"><img src="img/bigBible.jpg" alt=""></a></div>
       <div class="col-md-3 col-sm-6 featuredWidgetColumn text-center" id="missionPromo"><a href="#" class="featuredImage"><img src="img/missionBible.jpg" alt=""></a></div>
-      <div class="col-md-3 col-sm-6 featuredWidgetColumn text-center"><a href="#" class="featuredImage"><img src="img/countdown.png" alt=""></a></div>
+      <div class="col-md-3 col-sm-6 featuredWidgetColumn text-center"><a href="#" class="featuredImage"><img src="img/darkbackground.png" alt=""></a></div>
       <div class="col-md-3 col-sm-6 featuredWidgetColumn text-center"><a href="#" class="featuredImage"><img src="img/creditcardStock.jpg" alt=""></a></div>
     </div>
   </div>
+<!--
+  <div class="featuredWidgets">
+   <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Sunday Worship</h3>
+        <ul>
+          <li>Coffee and Bagels: 9 AM</li>
+          <li>Small Group: 9:15 AM</li>
+          <li>Worship: 10:30 AM</li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3>Bible Study</h3>
+        <ul>
+          <li>Sunday Night @ 6 PM</li>
+          <li>
+            <ul>
+              <li>Book of Galations</li>
+            </ul>
+          </li>
+          <li>Wednesday Night @ 6 PM</li>
+          <li>
+            <ul>
+              <li>For more info Click HERE</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h3>Online Giving</h3>
+      </div>
+    </div>
+    </div>
+  </div>  /featuredWidgets 
+-->
   
   
   <hr>

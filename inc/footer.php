@@ -2,15 +2,11 @@
     <footer>
     <div class="container">
      <div class="row">
-      <div class="col-md-4 text-center">
-        <h4>About Versailles Baptist</h4>
-        <p>Versailles Baptist is an awesome church. The one thing that is keeping this church from growing any faster is lack of parking! We were established in May, 1492. That's the same time when Christopher Columbus discovered America!</p>
-      </div>
        <div class="col-md-4 text-center">
           <h4>Stay Up to Date:</h4>
           <ul class="footerCurrentNews">
             <li><a href="#" class="btn btn-default">Weekly Newsletter</a></li>
-            <li><a href="#" class="btn btn-default">Sunday's Bulliten</a></li>
+            <li><a href="#" class="btn btn-default">Sunday's Bulletin</a></li>
             <li><a href="#" class="btn btn-default">Spring Calendar</a></li>
           </ul>   
        </div>
@@ -22,6 +18,15 @@
            <li>Lauren Parish</li>
            <li>Kevin Hash</li>
            <li>Music Dude</li>
+         </ul>
+       </div>
+       <div class="col-md-4 text-center">
+         <h4>Get Involved:</h4>
+         <ul>
+           <li>Children</li>
+           <li>Students</li>
+           <li>Adults</li>
+           <li>Giving</li>
          </ul>
        </div>
      </div> <!-- /row -->
@@ -36,7 +41,7 @@
       </ul>
       <div class="quickLinkMenu">
         <ul class="list-inline text-center">
-          <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a> <span id="facebook">Facebook</span></li>
+          <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
           <li><a href="#"><i class="fa fa-money fa-2x"></i></a></li>
           <li><a href="#"><i class="fa fa-video-camera fa-2x"></i></a></li>
           <li><a href="#"><i class="fa fa-envelope fa-2x"></i></a></li>

@@ -2,22 +2,40 @@
 General
 ******************************************************************************/
 
+
+
 /**************************************
 Colors
 **************************************/
 
 
+$background: #fefefe;
+$footerBackground: #e1e1e1;
+
+/******************
+VBC Colors
+******************/
+
+$blueLogo: rgb(135, 163, 224);
+$greenLogo: rgb(178, 215, 105);
+$purpleLogo: rgb(165, 128, 181);
+$orangeLogo: rgb(236, 168, 102);
+
+
+
+/**************************************
+Design Preferences
+**************************************/
+
+
 
 body {
-  background: #eee;
+  background: $background;
+  position: relative;
 }
 
 p {
   font-size: 14px;
-}
-
-.wrap {
-  padding-top: 50px;
 }
 
 ul {
@@ -25,9 +43,28 @@ ul {
 }
 
 hr {
-  border: 1px solid #fff;
+  border: 1px solid #999;
+  margin-top: 50px;
 }
 
+html,body {
+  height:100%;
+  width: 100%;
+}
+
+.fixedTop {
+  position: fixed;
+  top: 0;
+  margin-bottom: 40px;
+  width: 90%;
+  background: white;
+  box-shadow: 3px 3px 6px #333;
+}
+
+.navbar-fixed-top {
+  box-shadow: 3px 3px 6px #333;
+  margin-bottom: 80px;
+}
 
 
 
@@ -39,13 +76,28 @@ Header
 
 
 .banner {
-  background: #f6f6f6;
-//  border-bottom: 1px solid #e1e1e1;
-  padding-top: 10px;
+  background: url('../img/stardust_@2X.png') repeat-x;
   box-shadow: 0 8px 6px -6px black;
   z-index: 50;
+  h1, h5 {
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    a {
+      color: white;
+      font-style: italic;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
   ul {
-    padding-top: 35px;    
+    padding-top: 15px;
+    li, a {
+      color: $background;
+      &:hover {
+       text-decoration: none; 
+      }
+    }
   }
 }
 
@@ -63,8 +115,11 @@ Footer
 
 
 footer {
-  background: #e1e1e1;
+  background: $footerBackground;
   margin-top: 10px;
+  h4 {
+    border-bottom: 1px solid #555;
+  }
 }
 
 .footerContactList  {
@@ -86,39 +141,29 @@ footer {
 
 
 
-
-
-
 /******************************************************************************
 Home Page
 ******************************************************************************/
 
 
 
+/**************************************
+Carousel
+**************************************/
+
+
+
 .carousel-inner {
   .item {
-    background: lightgrey;
+    background: #aaa;
     img {
-      margin: 0 auto;
-      
+      margin: 0 auto;  
       height: 100%;
     }
   }
 }
 
-.featuredWidgetColumn {
-  
-  margin: 25px 0;
-  img {
-    width: 220px;
-    height: 180px;
-    border-radius: 15px;
-    margin: 5px;
-  }
-  
-}
-
-html,body {
+.carousel-inner {
   height:100%;
 }
 
@@ -127,8 +172,82 @@ html,body {
   max-height: 422px;
 }
 
-.carousel-inner {
-  height:100%;
+.carousel {
+  margin: 0 auto;
+  padding-top: 0;
+}
+
+.shrinkFix {
+  height: 422px;
+}
+
+
+
+/**************************************
+Featured Widget
+**************************************/
+
+
+
+.featuredWidgetColumn {
+  margin: 25px 0;
+  img {
+    width: 220px;
+    height: 180px;
+    border-radius: 15px;
+    margin: 5px;
+  } 
+}
+
+.featuredWidgets {
+  .col-md-4 {
+    background: red;
+  }
+  background: blue;
+}
+
+
+
+/**************************************
+ALTERNATE HOME PAGE
+**************************************/
+
+
+
+.infoSection {
+  background: #333;
+  color: #efefef;
+  
+  box-shadow: 3px 3px 5px 3px #111;
+  
+  
+  padding: 10px;
+  
+  margin: 20px auto;
+  
+  a {
+    color: #efefef;
+  }
+  
+  button {
+    background: #444;
+    border: 1px solid #efefef;
+    &:hover {
+      color: #000;
+    }
+  }
+}
+
+.mainHome {
+  margin: 20px auto;
+}
+
+.currentEvents {
+  margin: 10px auto;
+}
+
+.socialIcon:hover {
+  color: blue;
 }
 
 
@@ -138,8 +257,34 @@ html,body {
 Guest Page 
 ******************************************************************************/
 
+
+
+.subnav {
+  z-index: 1000;
+  background: $background;
+}
+
 .welcomeMap {
   margin: 20px;
+}
+
+.decide, .devote, .demonstrate {
+  padding: 10px;
+}
+
+.decide {
+  background: $blueLogo;
+  border-radius: 10px 10px 0 0;
+}
+
+.devote {
+  background: $greenLogo;
+  margin: -10px auto;
+}
+
+.demonstrate {
+  background: $purpleLogo;
+  border-radius: 0 0 10px 10px;
 }
 
 
@@ -152,7 +297,6 @@ Serve Page
 
 .serveRow {
   div {
-    
     height: 200px;
   }
 }
@@ -171,4 +315,7 @@ Sermon Page
 
 .sermonPromo {
   margin-top: 50px;
+  margin-bottom: 25px;
 }
+
+

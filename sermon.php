@@ -1,16 +1,18 @@
 <?php include('inc/header.php'); ?>
 
-<h1>Sermons</h1>
+
 
 <div class="container">
-  <div class="row">
+  <h1>Sermon Series</h1>
+     <div class="row">
     <div class="col-lg-8 mainSection">
       <div class="sermonPromo">
        <div class="col-md-4">
          <img src="http://placehold.it/200x200" alt="" class="img-rounded">
        </div>
         <div class="col-md-8">
-          <h2>Sermon Title</h2>
+          <h2>Series Title</h2>
+          <h4><small>Jan 1, 2015 - Feb 28, 2015</small></h4>
           <p class="lead">Here is some filler text to give people an idea of what this sermon is about to see if they want to read on with it.</p> 
           <a href="sermonSeries.php" class="btn btn-success">Read On...</a>
         </div>
@@ -25,6 +27,7 @@
        </div>
         <div class="col-md-8">
           <h2>Sermon Title</h2>
+          <h4><small>Nov 1, 2014 - Dec 31, 2015</small></h4>
           <p class="lead">Here is some filler text to give people an idea of what this sermon is about to see if they want to read on with it.</p> 
           <a href="sermonSeries.php" class="btn btn-success">Read On...</a>
         </div>
