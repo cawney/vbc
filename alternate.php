@@ -27,11 +27,11 @@
         <hr>
         <h4>Connect with Us</h4>
         <ul class="list-inline">
-          <li><a href="http://facebook.com" target="_blank" class="socialIcon"><i class="fa fa-facebook-square fa-2x"></i> <span class="hidden">Facebook</span></a></li>
-          <li><a href="http://instagram.com" target="_blank" class="socialIcon"><i class="fa fa-instagram fa-2x"></i> <span class="hidden">Instagram</span></a></li>
-          <li><a href="#" class="socialIcon"><i class="fa fa-video-camera fa-2x"></i> <span class="hidden">Sermons</span></a></li>
-          <li><a href="mailto:glen@versaillesbaptist.org" class="socialIcon"><i class="fa fa-envelope fa-2x"></i> <span class="hidden">Email</span></a></li>
-          <li><a href="tel:8598733737" class="socialIcon"><i class="fa fa-phone fa-2x"></i> <span class="hidden">Phone</span></a></li>
+          <li><a href="http://facebook.com" target="_blank" class="socialIcon"><i class="fa fa-facebook-square fa-2x"></i> <span class="socialText">Facebook</span></a></li>
+          <li><a href="http://instagram.com" target="_blank" class="socialIcon"><i class="fa fa-instagram fa-2x"></i> <span class="socialText">Instagram</span></a></li>
+          <li><a href="#" class="socialIcon"><i class="fa fa-video-camera fa-2x"></i> <span class="socialText">Sermons</span></a></li>
+          <li><a href="mailto:glen@versaillesbaptist.org" class="socialIcon"><i class="fa fa-envelope fa-2x"></i> <span class="socialText">Email</span></a></li>
+          <li><a href="tel:8598733737" class="socialIcon"><i class="fa fa-phone fa-2x"></i> <span class="socialText">Phone</span></a></li>
         </ul>
         
         
@@ -40,13 +40,16 @@
     </div>
     <div class="currentEvents">
       <h2>Mark your Calendars:</h2>
-      <div class="col-md-4 col-sm-6">
+      <div class="col-md-3 col-sm-6">
         <img src="http://placehold.it/250x250" alt="">
       </div>
-      <div class="col-md-4 col-sm-6">
+      <div class="col-md-3 col-sm-6">
         <img src="http://placehold.it/250x250" alt="">
       </div>
-      <div class="col-md-4 col-sm-6">
+      <div class="col-md-3 col-sm-6">
+        <img src="http://placehold.it/250x250" alt="">
+      </div>
+      <div class="col-md-3 col-sm-6">
         <img src="http://placehold.it/250x250" alt="">
       </div>
       
@@ -57,10 +60,10 @@
       <h2>Weekly Events:</h2>
       <div class="featuredWidget">
     <div class="row">
-      <div class="clearfix col-md-3 col-sm-6 featuredWidgetColumn text-center" id="wednesdayNight"><a href="#" class="featuredImage"><img src="img/bigBible.jpg" alt=""></a></div>
-      <div class="col-md-3 col-sm-6 featuredWidgetColumn text-center" id="missionPromo"><a href="#" class="featuredImage"><img src="img/missionBible.jpg" alt=""></a></div>
-      <div class="col-md-3 col-sm-6 featuredWidgetColumn text-center"><a href="#" class="featuredImage"><img src="img/darkbackground.png" alt=""></a></div>
-      <div class="col-md-3 col-sm-6 featuredWidgetColumn text-center"><a href="#" class="featuredImage"><img src="img/creditcardStock.jpg" alt=""></a></div>
+      <div class="clearfix col-md-4 col-sm-6 featuredWidgetColumn text-center" id="wednesdayNight"><a href="#" class="featuredImage"><img src="img/bigBible.jpg" alt=""></a></div>
+      <div class="col-md-4 col-sm-6 featuredWidgetColumn text-center" id="missionPromo"><a href="#" class="featuredImage"><img src="img/missionBible.jpg" alt=""></a></div>
+      <div class="col-md-4 col-sm-6 featuredWidgetColumn text-center"><a href="#" class="featuredImage"><img src="img/darkbackground.png" alt=""></a></div>
+      <div class="col-md-4 col-sm-6 featuredWidgetColumn text-center"><a href="#" class="featuredImage"><img src="img/creditcardStock.jpg" alt=""></a></div>
     </div>
   </div>
     </div>

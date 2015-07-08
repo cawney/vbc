@@ -227,6 +227,9 @@ ALTERNATE HOME PAGE
   
   a {
     color: #efefef;
+    &:hover {
+      color: #eee;
+    }
   }
   
   button {
@@ -285,6 +288,19 @@ Guest Page
 .demonstrate {
   background: $purpleLogo;
   border-radius: 0 0 10px 10px;
+  margin-bottom: 30px;
+}
+
+#imgDivide1 {
+  background: url('../img/readingBible.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 400px;
+}
+
+#imgDivide2 {
+  background: url('../img/chalkboard.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 400px;
 }
 
 
@@ -316,6 +332,35 @@ Sermon Page
 .sermonPromo {
   margin-top: 50px;
   margin-bottom: 25px;
+}
+
+
+
+/******************************************************************************
+Adult's Page
+******************************************************************************/
+
+
+
+.bannerCal {
+  background: #333;
+  box-shadow: 0px 3px 6px 6px #222;
+  z-index: 100;
+  h3 {
+    color: #eee;
+    padding: 5px 10px;
+  }
+}
+.infoCal {
+  background: darken($background, 5%);
+  box-shadow: 3px 3px 6px #333;
+  padding: 10px 20px;
+  
+  z-index: 9;
+  h2 {
+    color: $background;
+    background: #333;
+  }
 }
 
 

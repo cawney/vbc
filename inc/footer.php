@@ -2,7 +2,12 @@
     <footer>
     <div class="container">
      <div class="row">
-       <div class="col-md-4 text-center">
+       <div class="col-md-3 col-xs-6">
+         <h4>About Versailles Baptist</h4>
+         <p>"Do not be overcome by evil, but overcome evil with good."</p>
+       </div>
+      
+       <div class="col-md-3 col-xs-6">
           <h4>Stay Up to Date:</h4>
           <ul class="footerCurrentNews">
             <li><a href="#" class="btn btn-default">Weekly Newsletter</a></li>
@@ -10,7 +15,7 @@
             <li><a href="#" class="btn btn-default">Spring Calendar</a></li>
           </ul>   
        </div>
-       <div class="col-md-4 text-center">
+       <div class="col-md-3 col-xs-6">
          <h4>Meet the Ministers:</h4>
          <ul>
            <li>Michael Cabell</li>
@@ -20,7 +25,7 @@
            <li>Music Dude</li>
          </ul>
        </div>
-       <div class="col-md-4 text-center">
+       <div class="col-md-3 col-xs-6">
          <h4>Get Involved:</h4>
          <ul>
            <li>Children</li>

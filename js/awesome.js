@@ -58,9 +58,14 @@ Make the icons reveal text when hovered over.
 //Show that is has been hovered over
 //Reveal text that is associated with it.
 
-$('.socialIcon').hover(
-  console.log('on'), 
-  console.log('off')
+$('.socialText').hide();
+
+$( ".socialIcon" ).hover(
+  function() {
+    $( this > '.socialText' ).show();
+  }, function() {
+    $( '.socialText' ).addClass( 'hidden' );
+  }
 );
 
 /* $('.socialIcon').hover(

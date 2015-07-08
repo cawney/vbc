@@ -23,8 +23,6 @@
     </div>
   </div>
 </div>
-
-<h3>Want to watch the latest sermon?</h3>
 <a href="#" class="btn btn-primary">Watch Live</a>
 <a href="#" class="btn btn-primary">Sermon Notes</a>
 
